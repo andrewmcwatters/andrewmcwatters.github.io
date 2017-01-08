@@ -11,14 +11,14 @@ A 2D game engine built on LÖVE
 
 # 2017
 
-## [lgameframework](https://github.com/Planimeter/lgameframework)
-Game development framework for Lua  
-## [lphysicsfs](https://github.com/Planimeter/lphysicsfs)
-LuaJIT FFI bindings for PhysicsFS  
 ## [lopengl](https://github.com/Planimeter/lopengl)
 LuaJIT FFI bindings for OpenGL  
 ## [lsdl](https://github.com/Planimeter/lsdl)
 LuaJIT FFI bindings for SDL 2.0  
+## [lphysicsfs](https://github.com/Planimeter/lphysicsfs)
+LuaJIT FFI bindings for PhysicsFS  
+## [lgameframework](https://github.com/Planimeter/lgameframework)
+Game development framework for Lua  
 
 # 2016
 
