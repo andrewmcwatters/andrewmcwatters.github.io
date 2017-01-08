@@ -11,11 +11,11 @@ A 2D game engine built on LÖVE
 
 # 2017
 
-## [lassimp](https://github.com/andrewmcwatters/lassimp)  
+## [lassimp](https://github.com/Planimeter/lassimp)  
 LuaJIT FFI bindings for Assimp
-## [lchipmunk](https://github.com/andrewmcwatters/lchipmunk)  
+## [lchipmunk](https://github.com/Planimeter/lchipmunk)  
 LuaJIT FFI bindings for Chipmunk
-## [lfreetype](https://github.com/andrewmcwatters/lfreetype)  
+## [lfreetype](https://github.com/Planimeter/lfreetype)  
 LuaJIT FFI bindings for FreeType
 ## [ldevil](https://github.com/Planimeter/ldevil)  
 LuaJIT FFI bindings for DevIL
