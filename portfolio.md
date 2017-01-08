@@ -11,6 +11,16 @@ A 2D game engine built on LÖVE
 
 # 2017
 
+## [lassimp](https://github.com/andrewmcwatters/lassimp)  
+LuaJIT FFI bindings for Assimp
+## [lchipmunk](https://github.com/andrewmcwatters/lchipmunk)  
+LuaJIT FFI bindings for Chipmunk
+## [lfreetype](https://github.com/andrewmcwatters/lfreetype)  
+LuaJIT FFI bindings for FreeType
+## [ldevil](https://github.com/Planimeter/ldevil)  
+LuaJIT FFI bindings for DevIL
+## [lkazmath](https://github.com/Planimeter/lkazmath)  
+LuaJIT FFI bindings for kazmath
 ## [lopengl](https://github.com/Planimeter/lopengl)
 LuaJIT FFI bindings for OpenGL  
 ## [lsdl](https://github.com/Planimeter/lsdl)
