@@ -33,7 +33,7 @@ Game development framework for Lua
 # 2016
 
 ## [grid-docs](https://github.com/Planimeter/grid-docs)
-API Documentation addon for generating Markdown articles  
+Grid addon for generating API documentation  
 ## [common](https://github.com/Planimeter/common)
 Common game development classes  
 ## [lauxlib](https://github.com/Planimeter/lauxlib)
