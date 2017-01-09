@@ -28,7 +28,7 @@ LuaJIT FFI bindings for SDL 2.0
 ## [lphysicsfs](https://github.com/Planimeter/lphysicsfs)
 LuaJIT FFI bindings for PhysicsFS  
 ## [lffiutils](https://github.com/Planimeter/lffiutils)
-Utilities for generating LuaJIT FFI bindings. 
+Utilities for generating LuaJIT FFI bindings  
 ## [lgameframework](https://github.com/Planimeter/lgameframework)
 Game development framework for Lua  
 
