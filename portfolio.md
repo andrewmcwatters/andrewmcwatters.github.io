@@ -15,6 +15,10 @@ A 2D game engine built on LÖVE
 LuaJIT FFI bindings for Assimp
 ## [lchipmunk](https://github.com/Planimeter/lchipmunk)  
 LuaJIT FFI bindings for Chipmunk
+## [lopenal](https://github.com/Planimeter/lopenal)  
+LuaJIT FFI bindings for OpenAL
+## [lsndfile](https://github.com/Planimeter/lsndfile)  
+LuaJIT FFI bindings for libsndfile
 ## [lfreetype](https://github.com/Planimeter/lfreetype)  
 LuaJIT FFI bindings for FreeType
 ## [ldevil](https://github.com/Planimeter/ldevil)  
