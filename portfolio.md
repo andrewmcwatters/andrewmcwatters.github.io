@@ -17,8 +17,8 @@ LuaJIT FFI bindings for Assimp
 LuaJIT FFI bindings for Chipmunk
 ## [lopenal](https://github.com/Planimeter/lopenal)  
 LuaJIT FFI bindings for OpenAL
-## [lsndfile](https://github.com/Planimeter/lsndfile)  
-LuaJIT FFI bindings for libsndfile
+## [lsdl_sound](https://github.com/Planimeter/lsdl_sound)  
+LuaJIT FFI bindings for SDL_sound
 ## [lfreetype](https://github.com/Planimeter/lfreetype)  
 LuaJIT FFI bindings for FreeType
 ## [ldevil](https://github.com/Planimeter/ldevil)  
