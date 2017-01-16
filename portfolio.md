@@ -9,6 +9,15 @@ A 2D game engine built on LÖVE
        style="max-width: 1392px; max-height: 854px">
 </a>
 
+## [lgameframework](https://github.com/Planimeter/lgameframework)
+Game development framework for Lua  
+<a href="images/lgameframework.png">
+  <img src="images/lgameframework.png"
+       alt="lgameframework"
+       width="100%"
+       style="max-width: 912px; max-height: 734px">
+</a>
+
 # 2017
 
 ## [lassimp](https://github.com/Planimeter/lassimp)  
@@ -33,8 +42,6 @@ LuaJIT FFI bindings for SDL 2.0
 LuaJIT FFI bindings for PhysicsFS  
 ## [lffiutils](https://github.com/Planimeter/lffiutils)
 Utilities for generating LuaJIT FFI bindings  
-## [lgameframework](https://github.com/Planimeter/lgameframework)
-Game development framework for Lua  
 
 # 2016
 
