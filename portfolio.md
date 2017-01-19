@@ -24,6 +24,8 @@ Game development framework for Lua
 LuaJIT FFI bindings for OpenVR
 ## [lcef](https://github.com/Planimeter/lcef)  
 LuaJIT FFI bindings for CEF
+## [lgf-package](https://github.com/Planimeter/lgf-package)  
+Adds live reloading to lgameframework
 ## [lassimp](https://github.com/Planimeter/lassimp)  
 LuaJIT FFI bindings for Assimp
 ## [lchipmunk](https://github.com/Planimeter/lchipmunk)  
