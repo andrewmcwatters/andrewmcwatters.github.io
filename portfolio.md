@@ -20,6 +20,8 @@ Game development framework for Lua
 
 # 2017
 
+## [lopenvr](https://github.com/Planimeter/lopenvr)  
+LuaJIT FFI bindings for OpenVR
 ## [lcef](https://github.com/Planimeter/lcef)  
 LuaJIT FFI bindings for CEF
 ## [lassimp](https://github.com/Planimeter/lassimp)  
