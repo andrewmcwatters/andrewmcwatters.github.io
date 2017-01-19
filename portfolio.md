@@ -20,6 +20,8 @@ Game development framework for Lua
 
 # 2017
 
+## [lcef](https://github.com/Planimeter/lcef)  
+LuaJIT FFI bindings for CEF
 ## [lassimp](https://github.com/Planimeter/lassimp)  
 LuaJIT FFI bindings for Assimp
 ## [lchipmunk](https://github.com/Planimeter/lchipmunk)  
