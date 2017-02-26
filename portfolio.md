@@ -1,6 +1,6 @@
 # Present
 ## [Grid (game engine)](http://www.planimeter.org/grid-sdk/)
-A 2D game engine built on LÖVE
+Game engine for Lua
 <a href="images/grid_engine.png">
   <img src="images/grid_engine.png"
        alt="Grid Engine"
