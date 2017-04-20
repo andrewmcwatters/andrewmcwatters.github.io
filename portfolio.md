@@ -18,6 +18,8 @@ Game development framework for Lua
 </a>
 
 # 2017
+## [lgf-conf](https://github.com/Planimeter/lgf-conf)
+lgameframework configuration file
 ## [lhllib](https://github.com/Planimeter/lhllib)
 LuaJIT FFI bindings for HLLib
 ## [lopenvr](https://github.com/Planimeter/lopenvr)
