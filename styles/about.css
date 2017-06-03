@@ -1,3 +1,9 @@
+sup {
+  position: relative;
+  text-decoration: underline;
+  top: 3px;
+}
+
 main {
   align-items: flex-start;
   display: flex;
