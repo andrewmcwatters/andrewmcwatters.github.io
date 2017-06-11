@@ -35,6 +35,10 @@ aside {
   margin-right: 24px;
 }
 
+.logo-fill {
+  fill: rgba(255, 255, 255, 1);
+}
+
 .bootstrap-expo {
   color: #563d7c;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
