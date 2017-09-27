@@ -18,6 +18,8 @@ Game development framework for Lua
 </a>
 
 # 2017
+## [hello-coworkers](https://github.com/andrewmcwatters/hello-coworkers)
+Onboarding for companies and clients without onboarding
 ## [model.js](https://github.com/andrewmcwatters/model.js)
 Binds an `input`, `select`, `textarea` (or custom form control) to a property
 ## [lgf-conf](https://github.com/Planimeter/lgf-conf)
