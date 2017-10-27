@@ -64,7 +64,7 @@ Lua 5.1.5 Auxiliary Library
 Markdown in plain HTML using marked
 ## [route.js](https://github.com/andrewmcwatters/route.js)
 Provides routing and deeplinking
-## [include.js](https://github.com/andrewmcwatters/route.js)
+## [include.js](https://github.com/andrewmcwatters/include.js)
 Fetches and includes an external HTML fragment
 ## [website](https://github.com/andrewmcwatters/website)
 Seed project for websites
