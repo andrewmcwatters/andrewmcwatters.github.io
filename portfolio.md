@@ -1,6 +1,6 @@
 # Present
 ## [Grid (game engine)](http://www.planimeter.org/grid-sdk/)
-Game engine for Lua
+Game engine for Lua  
 <a href="images/grid_engine.png">
   <img src="images/grid_engine.png"
        alt="Grid Engine"
@@ -9,7 +9,7 @@ Game engine for Lua
 </a>
 
 ## [lgameframework](https://github.com/Planimeter/lgameframework)
-Game development framework for Lua
+Game development framework for Lua  
 <a href="images/lgameframework.png">
   <img src="images/lgameframework.png"
        alt="lgameframework"
