@@ -1,0 +1,27 @@
+nav ol,
+nav li a {
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+
+nav ol {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  border-top-color: transparent;
+  display: block;
+  padding-top: 24px;
+  position: relative;
+  top: -1px;
+}
+
+nav li:not(:last-child) {
+  margin-right: 24px;
+}
