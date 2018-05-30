@@ -5,7 +5,7 @@ import './index.css';
 import './font-stack.css';
 import './theme.css';
 import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+// import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render((
   <BrowserRouter>
