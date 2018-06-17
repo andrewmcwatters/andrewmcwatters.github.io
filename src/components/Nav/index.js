@@ -6,7 +6,7 @@ function Nav(props) {
   return <nav>
     <ol>
       <li><NavLink to="/" activeClassName="active">About</NavLink></li>
-      <li><a href="resume.pdf" target="_self">Résumé</a></li>
+      <li><a href="resume.pdf" target="_self">Resume</a></li>
     </ol>
   </nav>;
 }

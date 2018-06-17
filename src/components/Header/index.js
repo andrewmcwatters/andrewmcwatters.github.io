@@ -10,9 +10,6 @@ function Header(props) {
       <img src={logo} alt="ACPM" />
     </Link>
     <Nav></Nav>
-    <h3>
-      <small>From the desk of Andrew M<sup>c</sup>Watters</small>
-    </h3>
   </header>;
 }
 

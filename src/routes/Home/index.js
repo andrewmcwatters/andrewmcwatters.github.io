@@ -8,8 +8,8 @@ function Home(props) {
   return <React.Fragment>
     <main>
       <h1>
-        <small>Hello, world.</small><br />
-        I'm a developer & designer in Phoenix-Mesa-Scottsdale.
+        Andrew McWatters<br />
+        <small>Developer. Designer.</small>
       </h1>
       <a href="https://github.com/andrewmcwatters">Follow me on GitHub</a>
     </main>

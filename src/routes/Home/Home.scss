@@ -1,35 +1,44 @@
 .App-intro {
-  font-size: large; }
+  font-size: large;
+}
 
 main {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center; }
+  text-align: center;
+}
 
 aside {
   margin: 0 0.5in 0.5in;
-  text-align: center; }
+  text-align: center;
+}
 
 @media (min-width: 544px) {
   aside {
-    margin: 0 1in 1in; } }
+    margin: 0 1in 1in;
+  }
+}
 
 .logos {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .logos .logo {
-  margin-bottom: 24px; }
+  margin-bottom: 24px;
+}
 
 .logos .logo:not(:last-child) {
-  margin-right: 24px; }
+  margin-right: 24px;
+}
 
 .bootstrap-expo {
   color: #563d7c;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.5em;
-  font-weight: 300; }
+  font-weight: 300;
+}
