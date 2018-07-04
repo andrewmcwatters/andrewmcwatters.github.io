@@ -9,7 +9,6 @@ function Header(props) {
     <Link to="/">
       <img src={logo} alt="ACPM" />
     </Link>
-    <Nav></Nav>
   </header>;
 }
 
