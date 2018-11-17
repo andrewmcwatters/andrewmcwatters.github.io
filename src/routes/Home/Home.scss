@@ -3,19 +3,21 @@
 }
 
 main {
-  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
+  margin-bottom: 0.5in;
 }
 
 aside {
   margin: 0 0.5in 0.5in;
-  text-align: center;
 }
 
-@media (min-width: 544px) {
+@media (min-width: 992px) {
+  main {
+    margin-bottom: 1in;
+  }
+
   aside {
     margin: 0 1in 1in;
   }
@@ -24,8 +26,18 @@ aside {
 .logos {
   align-items: center;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  margin: 0 -0.5in;
+  padding: 0 calc(0.5in - 15px);
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (min-width: 992px) {
+  .logos {
+    margin: 0 -1in;
+    padding: 0 calc(1in - 15px);
+  }
 }
 
 .logos .logo {
@@ -33,8 +45,18 @@ aside {
 }
 
 .logos .logo {
-  margin-left: 12px;
-  margin-right: 12px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.logos div:last-child {
+  padding-right: 0.5in;
+}
+
+@media (min-width: 992px) {
+  .logos div:last-child {
+    padding-right: 0;
+  }
 }
 
 .bootstrap-expo {
@@ -42,4 +64,5 @@ aside {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.5em;
   font-weight: 300;
+  white-space: nowrap;
 }

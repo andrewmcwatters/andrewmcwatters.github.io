@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from './logo.svg';
 import './Header.css';
-import Nav from '../Nav';
+// import Nav from '../Nav';
 
 function Header(props) {
   return <header>

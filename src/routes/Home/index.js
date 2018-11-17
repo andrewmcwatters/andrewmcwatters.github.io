@@ -6,34 +6,45 @@ import onextrapixel from './onextrapixel.png';
 
 function Home(props) {
   return <React.Fragment>
-    <main>
+    <main className="
+      text-left
+      text-lg-center
+      align-items-start
+      align-items-lg-center
+    ">
       <h1>
         Andrew McWatters<br />
         <small>Developer. Designer.</small>
       </h1>
       <a href="https://github.com/andrewmcwatters">Follow me on GitHub</a>
     </main>
-    <aside>
-      <h2>
+    <aside className="text-left text-lg-center">
+      <h2 className="">
         Featured On
       </h2>
-      <div className="logos">
-        <img
-          className="logo"
-          src={awwwards}
-          alt="Awwwards" />
-        <span
-          className="logo bootstrap-expo">
-          Bootstrap Expo
-        </span>
-        <img
-          className="logo"
-          src={creative_bloq}
-          alt="Creative Bloq" />
-        <img
-          className="logo"
-          src={onextrapixel}
-          alt="Onextrapixel" width="201" height="31" />
+      <div className="
+        logos
+        justify-content-start
+        justify-content-lg-center
+      ">
+        <div className="text-nowrap d-flex justify-content-center">
+          <img
+            className="logo"
+            src={awwwards}
+            alt="Awwwards" />
+          <span
+            className="logo bootstrap-expo">
+            Bootstrap Expo
+          </span>
+          <img
+            className="logo"
+            src={creative_bloq}
+            alt="Creative Bloq" />
+          <img
+            className="logo"
+            src={onextrapixel}
+            alt="Onextrapixel" width="201" height="31" />
+        </div>
       </div>
     </aside>
   </React.Fragment>;

@@ -15,7 +15,7 @@ footer {
   margin: 0.5in;
 }
 
-@media (min-width: 544px) {
+@media (min-width: 992px) {
   header,
   main,
   footer {
@@ -26,7 +26,13 @@ footer {
 header {
   align-items: center;
   display: flex;
-  margin-bottom: 0;
+  margin-bottom: 0.5in;
+}
+
+@media (min-width: 992px) {
+  header {
+    margin-bottom: 1in;
+  }
 }
 
 main {
