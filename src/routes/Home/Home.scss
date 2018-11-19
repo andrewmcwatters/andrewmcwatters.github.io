@@ -10,7 +10,7 @@ main {
 }
 
 aside {
-  margin: 0 0.5in 0.5in;
+  margin: 0 0.5in calc(0.5in - 0.5rem);
 }
 
 @media (min-width: 992px) {
