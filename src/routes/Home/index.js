@@ -8,9 +8,7 @@ function Home(props) {
   return <React.Fragment>
     <main className="
       text-left
-      text-lg-center
       align-items-start
-      align-items-lg-center
     ">
       <h1>
         Andrew McWatters<br />
@@ -18,14 +16,13 @@ function Home(props) {
       </h1>
       <a href="https://github.com/andrewmcwatters">Follow me on GitHub</a>
     </main>
-    <aside className="text-left text-lg-center">
+    <aside className="text-left">
       <h2 className="">
         Featured On
       </h2>
       <div className="
         logos
         justify-content-start
-        justify-content-lg-center
       ">
         <div className="text-nowrap d-flex justify-content-center">
           <img
