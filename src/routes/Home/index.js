@@ -23,7 +23,7 @@ function Home(props) {
       <div className="
         logos
         justify-content-start
-      ">
+      " style="filter: grayscale(100%); opacity: .26;">
         <div className="text-nowrap d-flex justify-content-center">
           <img
             className="logo"
