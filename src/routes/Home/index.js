@@ -14,7 +14,7 @@ function Home(props) {
         Andrew McWatters<br />
         <small>Developer. Designer.</small>
       </h1>
-      <a href="https://github.com/andrewmcwatters">Follow me on GitHub</a>
+      <a href="https://github.com/andrewmcwatters">Follow me on GitHub →</a>
     </main>
     <aside className="text-left">
       <h2 className="">
