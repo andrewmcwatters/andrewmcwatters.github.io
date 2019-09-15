@@ -14,7 +14,8 @@ function Home(props) {
         Andrew McWatters<br />
         <small>Developer. Designer.</small>
       </h1>
-      <a href="https://github.com/andrewmcwatters">Follow me on GitHub →</a>
+      <a href="https://github.com/andrewmcwatters">Follow me on GitHub
+      &#x2192;</a>
     </main>
     <aside className="text-left">
       <h2 className="">
@@ -23,7 +24,7 @@ function Home(props) {
       <div className="
         logos
         justify-content-start
-      " style="filter: grayscale(100%); opacity: .26;">
+      " style={{ filter: 'grayscale(100%)', opacity: .26 }}>
         <div className="text-nowrap d-flex justify-content-center">
           <img
             className="logo"
