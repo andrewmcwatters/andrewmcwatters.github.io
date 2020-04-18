@@ -6,9 +6,11 @@ import './Header.css';
 
 function Header(props) {
   return <header>
-    <Link to="/">
-      <img src={logo} alt="ACPM" />
-    </Link>
+    <p>
+      <Link to="/">
+        <img src={logo} alt="ACPM" />
+      </Link>
+    </p>
   </header>;
 }
 

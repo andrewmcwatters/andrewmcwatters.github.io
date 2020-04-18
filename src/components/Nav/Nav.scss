@@ -1,5 +1,6 @@
 nav ol {
   margin: 0;
+  padding-left: 0;
 }
 
 nav li {
@@ -7,7 +8,7 @@ nav li {
 }
 
 nav li a {
-  color: inherit;
+  // color: inherit;
 }
 
 nav li:not(:last-child) {
