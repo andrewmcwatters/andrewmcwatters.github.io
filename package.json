@@ -1,6 +1,6 @@
 {
   "name": "andrewmcwatters.github.io",
-  "version": "2.1.4",
+  "version": "2.2.0",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.1.1",
