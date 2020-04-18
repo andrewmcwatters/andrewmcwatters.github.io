@@ -5,7 +5,7 @@ import creative_bloq from './creative_bloq.svg';
 import onextrapixel from './onextrapixel.png';
 
 function Home(props) {
-  return <React.Fragment>
+  return <div className="Home">
     <main className="
       text-left
       align-items-start
@@ -45,7 +45,7 @@ function Home(props) {
         </div>
       </div>
     </aside>
-  </React.Fragment>;
+</div>;
 }
 
 export default Home;

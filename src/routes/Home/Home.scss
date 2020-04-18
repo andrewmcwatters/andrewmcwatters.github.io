@@ -1,68 +1,70 @@
-.App-intro {
-  font-size: large;
-}
+.Home {
+  .App-intro {
+    font-size: large;
+  }
 
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-bottom: 0.5in;
-}
-
-aside {
-  margin: 0 0.5in calc(0.5in - 0.5rem);
-}
-
-@media (min-width: 992px) {
   main {
-    margin-bottom: 1in;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0.5in;
   }
 
   aside {
-    margin: 0 1in;
+    margin: 0 0.5in calc(0.5in - 0.5rem);
   }
-}
 
-.logos {
-  align-items: center;
-  display: flex;
-  margin: 0 -0.5in;
-  padding: 0 calc(0.5in - 15px);
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-}
+  @media (min-width: 992px) {
+    main {
+      margin-bottom: 1in;
+    }
 
-@media (min-width: 992px) {
+    aside {
+      margin: 0 1in;
+    }
+  }
+
   .logos {
-    margin: 0 -1in;
-    padding: 0 calc(1in - 15px);
+    align-items: center;
+    display: flex;
+    margin: 0 -0.5in;
+    padding: 0 calc(0.5in - 15px);
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
-}
 
-.logos .logo {
-  margin-bottom: 0.5rem;
-}
+  @media (min-width: 992px) {
+    .logos {
+      margin: 0 -1in;
+      padding: 0 calc(1in - 15px);
+    }
+  }
 
-.logos .logo {
-  margin-left: 15px;
-  margin-right: 15px;
-}
+  .logos .logo {
+    margin-bottom: 0.5rem;
+  }
 
-.logos div:last-child {
-  padding-right: 0.5in;
-}
+  .logos .logo {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 
-@media (min-width: 992px) {
   .logos div:last-child {
-    padding-right: 0;
+    padding-right: 0.5in;
   }
-}
 
-.bootstrap-expo {
-  color: #563d7c;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.5em;
-  font-weight: 300;
-  white-space: nowrap;
+  @media (min-width: 992px) {
+    .logos div:last-child {
+      padding-right: 0;
+    }
+  }
+
+  .bootstrap-expo {
+    color: #563d7c;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+    white-space: nowrap;
+  }
 }

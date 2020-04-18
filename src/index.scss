@@ -5,7 +5,12 @@ body, #root {
   min-height: 100vh;
 }
 
-main {
+#root > div {
+  display: flex;
+  flex-direction: column;
+}
+
+main, #root > div {
   flex: 1;
 }
 
