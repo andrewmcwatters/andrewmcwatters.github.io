@@ -12,9 +12,7 @@ class App extends Component {
     return (
       <React.Fragment>
         <Header></Header>
-        <Suspense fallback={<main>
-          <div>Loading...</div>
-        </main>}>
+        <Suspense fallback={<div className="Suspense"></div>}>
           <Switch>
             <Route exact path="/" component={Home} />
             <Route component={NoMatch} />
