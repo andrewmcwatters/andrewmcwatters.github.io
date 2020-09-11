@@ -15,7 +15,7 @@
     margin: 0 0.5in calc(0.5in - 0.5rem);
   }
 
-  @media (min-width: 992px) {
+  @media (min-width: 768px) {
     main {
       margin-top: 1in;
       margin-bottom: 1in;
@@ -36,7 +36,7 @@
     -webkit-overflow-scrolling: touch;
   }
 
-  @media (min-width: 992px) {
+  @media (min-width: 768px) {
     .logos {
       margin: 0 -1in;
       padding: 0 calc(1in - 15px);
