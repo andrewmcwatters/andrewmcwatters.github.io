@@ -5,9 +5,10 @@
 
   main {
     display: flex;
+    margin-top: 0.5in;
+    margin-bottom: 0.5in;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 0.5in;
   }
 
   aside {
