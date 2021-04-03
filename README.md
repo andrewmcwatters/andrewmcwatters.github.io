@@ -4,7 +4,7 @@ From the desk of Andrew McWatters
 ## License
 MIT License
 
-Copyright (c) 2021 Andrew McWatters
+Copyright (c) 2020 Andrew McWatters
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
