@@ -1,2 +1,0 @@
-(this["webpackJsonpandrewmcwatters.github.io"]=this["webpackJsonpandrewmcwatters.github.io"]||[]).push([[4],{42:function(e,t,a){"use strict";a.r(t);var n=a(0),c=a.n(n);t.default=function(e){return e.location,c.a.createElement("div",{className:"NoMatch"},c.a.createElement("main",null,c.a.createElement("h3",null,"No match for ",c.a.createElement("code",null,window.location.pathname))))}}}]);
-//# sourceMappingURL=4.f4030559.chunk.js.map
