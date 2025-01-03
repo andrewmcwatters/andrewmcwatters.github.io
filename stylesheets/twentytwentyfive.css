@@ -20,7 +20,6 @@ html, :root, .wp-site-blocks {
 body {
   display: flex;
   height: 100%;
-  line-height: 18px;
   background-color: rgb(250, 250, 250);
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 400;
