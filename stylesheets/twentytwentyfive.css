@@ -10,10 +10,43 @@
    paste the following code into it. */
 /* <link rel='stylesheet' id='wp-theme-additional-css' href='https://www.andrewmcwatters.org/stylesheets/twentytwentyfive.css' media='all'/> */
 :root {
-  --wp--style--global--content-size: 1116px;
+  --bs-gutter-x: 1.5rem;
+  --wp--style--global--content-size: calc(100% - 2 * var(--bs-gutter-x));
 }
 
-html, :root, .wp-site-blocks {
+@media (min-width: 576px) {
+  :root {
+    --wp--style--global--content-size: calc(540px - 2 * var(--bs-gutter-x));
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    --wp--style--global--content-size: calc(720px - 2 * var(--bs-gutter-x));
+  }
+}
+
+@media (min-width: 992px) {
+  :root {
+    --wp--style--global--content-size: calc(960px - 2 * var(--bs-gutter-x));
+  }
+}
+
+@media (min-width: 1200px) {
+  :root {
+    --wp--style--global--content-size: calc(1140px - 2 * var(--bs-gutter-x));
+  }
+}
+
+@media (min-width: 1400px) {
+  :root {
+    --wp--style--global--content-size: calc(1320px - 2 * var(--bs-gutter-x));
+  }
+}
+
+html,
+:root,
+.wp-site-blocks {
   height: 100%;
 }
 
@@ -21,14 +54,17 @@ body {
   display: flex;
   height: 100%;
   background-color: rgb(250, 250, 250);
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 400;
   flex-direction: column;
   letter-spacing: normal;
   -webkit-font-smoothing: antialiased;
 }
 
-.wp-site-blocks, main {
+.wp-site-blocks,
+main {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -37,9 +73,10 @@ body {
 .custom-logo {
   padding-top: 6px;
   width: 68.74px;
-  height: 16px!important;
+  height: 16px !important;
 }
 
-.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+.is-layout-constrained
+  > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
   width: var(--wp--style--global--content-size);
 }
