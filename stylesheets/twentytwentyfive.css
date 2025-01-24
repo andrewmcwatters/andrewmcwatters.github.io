@@ -86,3 +86,7 @@ main {
   > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
   width: var(--wp--style--global--content-size);
 }
+
+footer {
+  line-height: 18px;
+}
