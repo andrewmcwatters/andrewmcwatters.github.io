@@ -11,36 +11,36 @@
 /* <link rel='stylesheet' id='wp-theme-additional-css' href='https://www.andrewmcwatters.org/stylesheets/twentytwentyfive.css' media='all'/> */
 :root {
   --bs-gutter-x: 1.5rem;
-  --wp--style--global--content-size: calc(100% - 2 * var(--bs-gutter-x));
+  --wp--style--global--content-size: calc(100% - var(--bs-gutter-x));
 }
 
 @media (min-width: 576px) {
   :root {
-    --wp--style--global--content-size: calc(540px - 2 * var(--bs-gutter-x));
+    --wp--style--global--content-size: calc(540px - var(--bs-gutter-x));
   }
 }
 
 @media (min-width: 768px) {
   :root {
-    --wp--style--global--content-size: calc(720px - 2 * var(--bs-gutter-x));
+    --wp--style--global--content-size: calc(720px - var(--bs-gutter-x));
   }
 }
 
 @media (min-width: 992px) {
   :root {
-    --wp--style--global--content-size: calc(960px - 2 * var(--bs-gutter-x));
+    --wp--style--global--content-size: calc(960px - var(--bs-gutter-x));
   }
 }
 
 @media (min-width: 1200px) {
   :root {
-    --wp--style--global--content-size: calc(1140px - 2 * var(--bs-gutter-x));
+    --wp--style--global--content-size: calc(1140px - var(--bs-gutter-x));
   }
 }
 
 @media (min-width: 1400px) {
   :root {
-    --wp--style--global--content-size: calc(1320px - 2 * var(--bs-gutter-x));
+    --wp--style--global--content-size: calc(1320px - var(--bs-gutter-x));
   }
 }
 
